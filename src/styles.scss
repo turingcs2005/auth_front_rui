@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'src/app/app-data/colors.scss';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.padded {
+    padding: 20px;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.background-primary100 {
+    background-color: $primary100;
+}
+
+.border-radius10px {
+    border-radius: 10px;
+}
+
+.link {
+    color: $accent500;
+    font-weight: bold;
+    cursor: pointer;
+}
