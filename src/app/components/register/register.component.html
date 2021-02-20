@@ -33,7 +33,7 @@
 
                 <div class="between">
                     <div></div>
-                    <button mat-raised-button color="accent" class="standard-button">Submit</button>
+                    <button mat-raised-button color="accent" class="standard-button" [disabled]="!registerForm.valid">Submit</button>
                 </div>
 
             </form>

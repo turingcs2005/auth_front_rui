@@ -1,5 +1,12 @@
-<mat-toolbar color="primary" class="between">
-    <div matTooltip="login" [routerLink]="['/login']"><mat-icon>login</mat-icon></div>
+<mat-toolbar color="primary" class="between mat-elevation-z8">
+    <div>
+        <span matTooltip="login" [routerLink]="['/login']">
+            <mat-icon>login</mat-icon>
+        </span>&nbsp; &nbsp;
+        <span matTooltip="update account" [routerLink]="['/update']">
+            <mat-icon>create</mat-icon>
+        </span>
+    </div>
     <div>MEAN Authentication Demo</div>
     <div></div>
 </mat-toolbar>
