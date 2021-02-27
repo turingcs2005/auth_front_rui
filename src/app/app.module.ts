@@ -9,6 +9,7 @@ import { TopBarComponent } from './components/top-bar/top-bar.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { UpdateComponent } from './components/update/update.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { UpdateComponent } from './components/update/update.component';
     TopBarComponent,
     LoginComponent,
     RegisterComponent,
-    UpdateComponent
+    UpdateComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
